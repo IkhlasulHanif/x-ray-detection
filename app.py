@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 from PIL import Image
 
-model = load_model('./model.h5')
+model = load_model('./model.hdf5')
 
 st.title('Fire Detection Image')
 
